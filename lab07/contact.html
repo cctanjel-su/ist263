@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <style>
+            body {font-family: "Trebuchet MS" , Helvetica, sans-serif;}
+            h1 {font-size: 3em;}
+            h2 {font-size: 2em;}
+        </style>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <a href="../lab06/bio.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1>Contact</h1>
+            Chloe Tanjeloff <br>
+            40 Sutton Pl <br>
+            Apt 9E <br>
+            NY, NY <br>
+            10022 <br>
+        <a href="mailto:cctanjel@syr.edu">Chloe Tanjeloff's Email </a> <br>
+        
+        <p><a href="http://www.linkedin.com/in/chloe-tanjeloff"><img src="../images/logo-sized.png" alt="LinkedIn Logo"></a><a href="http://www.linkedin.com/in/chloe-tanjeloff">My LinkedIn Profile</a></p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1589337056753!2d-73.96272992410474!3d40.75852897138663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e7656df477%3A0x981c5d4634b53a0c!2s40%20Sutton%20Pl%2C%20New%20York%2C%20NY%2010022!5e0!3m2!1sen!2sus!4v1694716835034!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2>Forms</h2>
+        <form action="https://formspree.io/f/xgejnnoz" method="post">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="full name"><br>
+            <label for="instructions">What skills do you have?</label><br>
+            <textarea id="instructions" name="instructions" rows="3" cols="60"></textarea><br>
+
+            <p>Are you a student?</p>
+            <input type="radio" id="student" name="studentnotstudent" value="student">
+            <label for="student">Student</label><br>
+            <input type="radio" id="notstudent" name="studentnotstudent" value="notstudent">
+            <label for="notstudent">Not Student</label><br>
+
+            <p>Are you happy?</p>
+            <input type="checkbox" id="areyouhappy" name="areyouhappy" value="are you happy">
+            <label for="areyouhappy">Yes</label><br>
+
+            <label for="yearinschool">Year In School</label><br>
+            <select id="yearinschool" name="yearinschool">
+                <option value="notinschool">Not in School</option>
+                <option value="freshman">Freshman</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select><br>
+            <input type="submit" value="send form">
+        </form>
+    </body>
+</html>
