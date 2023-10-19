@@ -1,0 +1,20 @@
+body {background-color: #ffe5e5;
+    color: #b931fc;}
+
+h1, h2 {color: #8062d6;
+background-color: #e5cff7;}
+
+a {color: #9288f8;}
+
+a:hover {color:#fba1b7}
+
+p, ol, td, th {color: #5d12d2;}
+
+nav a {color: #91c8e4;
+    background-color: #ffdbaa;
+    padding: 10px;
+    margin-bottom: 30px}
+
+nav a:hover {background-color: #fba1b7}
+
+nav {margin-bottom: 30px;}
