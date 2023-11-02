@@ -18,3 +18,14 @@ nav a {color: #91c8e4;
 nav a:hover {background-color: #fba1b7}
 
 nav {margin-bottom: 30px;}
+
+.biophoto {max-width: 100%;}
+
+@media only screen and (max-width: 950px) { .row2 {display: flex; flex-wrap: wrap;}}
+@media only screen and (min-width: 951px) { body {background-color: #ffe5e5;}}
+
+@media only screen and (max-width: 600px) {
+    nav a {display: block;
+        max-width: 100%}
+    span {display: none;}
+}
