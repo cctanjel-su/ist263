@@ -1,0 +1,60 @@
+header, footer {background-color: #000080;}
+
+p {color: #6Ac5fe;} 
+
+h1, h2 {color: #000080;
+        text-align: center;}
+
+nav a:hover {color: #0000CD;}
+
+nav a {color: #000080;
+    background-color: #6Ac5fe;
+    padding: 10px;
+    margin: 10px;}
+
+.topleft {float: left;}
+.topright {float: right}
+
+div {padding: 10px; padding-bottom: 20px;}
+
+.homephoto {display: flex; justify-content: center;}
+
+img {width: 350px; border-radius: 1em;}
+
+.intro {text-align: center; margin-left: 450px; margin-right: 450px;}
+
+.information {display: flex; color: #6Ac5fe; justify-content: space-around; margin-right: 200px; margin-left: 200px;}
+
+.email {color:#6Ac5fe}
+
+.linkedin {color: #6Ac5fe}
+
+footer {padding: 10px;}
+
+.footer {text-align: center;}
+
+@media only screen and (max-width: 900px) { 
+    .information {display: flex; flex-wrap: wrap;}
+    .intro {display: none;}
+    .smallintro {display: block;}
+    nav a {display: block;}
+    span {display: none;}
+
+}
+@media only screen and (min-width: 901px) {
+    .intro {display: block}
+    .smallintro{display: none}}
+
+.skip {
+    background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solid #000;
+    text-decoration: none;
+    position: absolute;
+    top: 10p;
+    left: -999px;
+    }
+
+.skip:focus {
+    left: 10px;
+    }
