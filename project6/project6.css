@@ -1,14 +1,15 @@
-header, footer {background-color: #000080;}
+header, footer {background-color: #6Ac5fe;}
 
-p {color: #6Ac5fe;} 
+p {color: #000080;} 
 
-h1, h2 {color: #000080;
+h1, h2 {color: #6Ac5fe;
         text-align: center;}
 
-nav a:hover {color: #0000CD;}
+nav a:hover {color: lightpink;}
+div a:hover {color: lightpink;}
 
-nav a {color: #000080;
-    background-color: #6Ac5fe;
+nav a {color: #6Ac5fe;
+    background-color: #000080;
     padding: 10px;
     margin: 10px;}
 
@@ -23,11 +24,11 @@ img {width: 350px; border-radius: 1em;}
 
 .intro {text-align: center; margin-left: 450px; margin-right: 450px;}
 
-.information {display: flex; color: #6Ac5fe; justify-content: space-around; margin-right: 200px; margin-left: 200px;}
+.information {display: flex; color: #000080; justify-content: space-around; margin-right: 200px; margin-left: 200px;}
 
-.email {color:#6Ac5fe}
+.email {color:#000080}
 
-.linkedin {color: #6Ac5fe}
+.linkedin {color: #000080}
 
 footer {padding: 10px;}
 
@@ -37,7 +38,6 @@ footer {padding: 10px;}
     .information {display: flex; flex-wrap: wrap;}
     .intro {display: none;}
     .smallintro {display: block;}
-    nav a {display: block;}
     span {display: none;}
 
 }
@@ -46,9 +46,9 @@ footer {padding: 10px;}
     .smallintro{display: none}}
 
 .skip {
-    background-color: #ffbf00;
+    background-color: #6Ac5fe;
     padding: 5px;
-    border: 1px solid #000;
+    border: 1px solid #000080;
     text-decoration: none;
     position: absolute;
     top: 10p;
