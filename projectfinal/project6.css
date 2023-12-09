@@ -1,0 +1,93 @@
+header, footer {background-color: #6Ac5fe;}
+
+p {color: #000080;
+    font-family: 'PT Sans Narrow', sans-serif;} 
+
+h1, h2 {color: #0077b6;
+        text-align: center;
+        font-family: 'PT Sans Narrow', sans-serif;}
+
+.name {font-family: 'Bebas Neue', sans-serif;}
+
+.page2intro, .page3intro {text-align: center;}
+
+h1 {font-size: 50px;}
+
+nav a:hover {color: #6Ac5fe;}
+
+div a:hover {color: #6Ac5fe;}
+
+nav a {color: #caf0f8;
+    background-color: #000080;
+    padding: 10px;
+    margin: 10px;}
+
+.topleft {float: left;
+    font-family: 'Bebas Neue', sans-serif;}
+.topright {float: right;
+    font-family: 'Bebas Neue', sans-serif;}
+
+div {padding: 10px; 
+    padding-bottom: 20px;}
+
+.homephoto {display: flex; 
+    justify-content: center;
+}
+
+img { border-radius: 2em;}
+.intro { position: relative;
+    margin: 0 auto;
+    width: 500px;
+    font-family: 'PT Sans Narrow', sans-serif;}
+
+.information {display: flex; 
+    color: #000080; 
+    justify-content: space-around; 
+    margin-right: 200px; 
+    margin-left: 200px;}
+
+.email {color:#000080}
+
+.linkedin {color: #000080}
+
+.phone {color: #000080}
+
+footer {padding: 10px;}
+
+.footer {text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;}
+
+@media only screen and (max-width: 900px) { 
+    .information {display: flex; 
+                flex-wrap: wrap;}
+    .intro {display: none;}
+    .smallintro {display: block;}
+    span {display: none;}}
+
+@media only screen and (min-width: 901px) {
+    .intro {display: block}
+    .smallintro{display: none}}
+
+.skip {background-color: #6Ac5fe;
+    padding: 5px;
+    border: 1px solid #000080;
+    text-decoration: none;
+    position: absolute;
+    top: 10p;
+    left: -999px;}
+
+.skip:focus {left: 10px;}
+
+.tap {text-align: center;}
+
+.tiktok {position: relative;
+    margin: 0 auto;
+    width: 500px;}
+
+/* remember to: 
+add the hamburger nav icon, 
+flex wrap all of the photos so they stack on top of each other, 
+add press and resume, 
+make resume downloadable, 
+attach links to insta posts 
+resize all images */ 
