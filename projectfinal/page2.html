@@ -10,47 +10,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="page2body">
     <header>
         <div class="header">
             <div>
                 <p class="topleft">CT</p>
             </div>
-            <div>
-                <nav class="topright">
-                    <a class="skip" href="#main">Skip to content</a>
-                    <a class="nav1" href="homepage.html">Home</a><span>&#124;</span>
-                    <a class="nav2" href="page2.html">Instagram</a><span>&#124;</span>
-                    <a class="nav3" href="page3.html">Tiktok</a><span>&#124;</span>
-                    <a class="nav4" href="page4.html">Press</a><span>&#124;</span>
-                    <a class="nav5" href="page5.html">Resume</a><span>&#124;</span>
-                    <a class="nav4" href="#bottom">Contact Me</a><span>&#124;</span>
-                    </nav>
+            <div class="firstrow">
+                <img  id="hamicon" src="http://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" onclick="showNav();">
+                <p id="close" onclick="hideNav();">X</p>
             </div>
+            <nav class="nav-links" id="navlinks">
+                <a class="skip" href="#main">Skip to content</a>
+                <a class="nav1" href="homepage.html">Home</a>
+                <a class="nav2" href="page2.html">Instagram</a>
+                <a class="nav3" href="page3.html">Tiktok</a>
+                <a class="nav4" href="page4.html">Press</a>
+                <a class="nav5" href="page5.html">Resume</a>
+                <a class="nav4" href="#bottom">Contact Me</a>
+            </nav>
         </div>
     </header>
 
     <h1>My Instagram Portfolio</h1>
     <p class="page2intro">Welcome to my portfolio. Here you'll find a selection of my work and explore my projects</p>
 
-    <h2>Instagram Stories</h2>
+    <div class="line-with-words">
+        <span class="line"></span>
+        <span class="words">Instagram Stories</span>
+      </div>
     <p>Product Spotlight For An Instagram Story</p>
+
+    <div class="story1">
     <img src="../images/spotlight1.png" alt="product spotlight post 1" width="150" height="300">
     <img src="../images/spotlight2.png" alt="product spotlight post 2" width="150" height="300">
     <img src="../images/spotlight3.png" alt="product spotlight post 3" width="150" height="300">
     <img src="../images/spotlight4.png" alt="porduct spotlight post 4" width="150" height="300">
+    </div>
 
     <p>Skin Care Tips For An Instagram Story</p>
+    <div class="story2">
     <img src="../images/skincare1.png" alt="skin care story 1" width="150" height="300">
     <img src="../images/skincare2.png" alt="sking care story 2" width="150" height="300">
     <img src="../images/skincare3.png" alt="skin care story 3" width="150" height="300">
     <img src="../images/skincare4.png" alt="skin care story 4" width="150" height="300">
     <img src="../images/skincare5.png" alt="skin care story 5" width="150" height="300">
+    </div>
 
-    <h2>Instagram Posts and Copy</h2>
-    <img src="../images/post1.png" alt="instagram post 1" width="150" height="300">
-    <img src="../images/post2.png" alt="instagram post 2" width="150" height="300">
-    <img src="../images/post3.png" alt="instagram post 3" width="150" height="300">
+
+   <div class="line-with-words">
+        <span class="line"></span>
+        <span class="words">Instagram Posts and Copy</span>
+      </div>
+    <div class="instapost">
+        <div>
+            <img src="../images/post1.png" alt="instagram post 1" width="150" height="300">
+        </div>
+        <div>
+            <img src="../images/post2.png" alt="instagram post 2" width="150" height="300">
+        </div>
+        <div>
+            <img src="../images/post3.png" alt="instagram post 3" width="150" height="300">
+        </div>
+    </div>
 
     <hr>
 

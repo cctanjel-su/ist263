@@ -9,6 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<script>
+    function showNav () {
+                document.getElementById("navlinks").style.display = "block";
+            }
+    function hideNav () {
+                document.getElementById("navlinks").style.display = "none";
+            }
+</script>
+
 </head>
 
 <body>
@@ -17,17 +26,19 @@
             <div>
                 <p class="topleft">CT</p>
             </div>
-            <div>
-                <nav class="topright">
-                    <a class="skip" href="#main">Skip to content</a>
-                    <a class="nav1" href="homepage.html">Home</a><span>&#124;</span>
-                    <a class="nav2" href="page2.html">Instagram</a><span>&#124;</span>
-                    <a class="nav3" href="page3.html">Tiktok</a><span>&#124;</span>
-                    <a class="nav4" href="page4.html">Press</a><span>&#124;</span>
-                    <a class="nav5" href="page5.html">Resume</a><span>&#124;</span>
-                    <a class="nav4" href="#bottom">Contact Me</a><span>&#124;</span>
-                    </nav>
+            <div class="firstrow">
+                <img  id="hamicon" src="http://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon" onclick="showNav();">
+                <p id="close" onclick="hideNav();">X</p>
             </div>
+            <nav class="nav-links" id="navlinks">
+                <a class="skip" href="#main">Skip to content</a>
+                <a class="nav1" href="homepage.html">Home</a>
+                <a class="nav2" href="page2.html">Instagram</a>
+                <a class="nav3" href="page3.html">Tiktok</a>
+                <a class="nav4" href="page4.html">Press</a>
+                <a class="nav5" href="page5.html">Resume</a>
+                <a class="nav4" href="#bottom">Contact Me</a>
+            </nav>
         </div>
     </header>
 
