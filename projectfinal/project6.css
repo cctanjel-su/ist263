@@ -119,15 +119,6 @@ footer {padding: 10px;}
 
 .tap {text-align: center;}
 
-/* remember to: 
-add the hamburger nav icon, 
-flex wrap all of the photos so they stack on top of each other, 
-add press and resume, 
-make resume downloadable, 
-attach links to insta posts 
-resize all images */ 
-
-
 .line-with-words {
     position: relative;
     display: flex;
